@@ -1,5 +1,11 @@
-apply plugin: 'groovy'
-apply plugin: 'maven'
+plugins {
+    id 'nu.studer.plugindev' version '1.0.3'
+    id 'groovy'
+    id 'maven'
+}
+//apply plugin: 'groovy'
+//apply plugin: 'maven'
+//apply plugin: 'nu.studer.plugindev'
 
 dependencies {
     compile gradleApi()
@@ -8,3 +14,23 @@ dependencies {
 
 group = 'org.absolutegalaber'
 version = '0.1-SNAPSHOT'
+
+plugindev {
+    pluginId 'org.absolutegalaber.yeoman'
+    pluginImplementationClass 'org.absolutegalaber.yeoman.YeomanPlugin'
+    pluginDescription 'Gradle plugin for yeoman Projects.'
+    pluginLicenses 'Apache-2.0'
+    pluginTags 'gradle', 'plugin', 'yeoman', 'node', 'npm', 'bower', 'grunt'
+    authorId 'absolutegalaber'
+    authorName 'Josip Mihelko'
+    authorEmail 'josip.mihelko@gmail.com'
+    projectUrl 'https://github.com/absolutegalaber/yeoman-gradle-plugin.git'
+    projectInceptionYear '2014'
+    done() // do not omit this
+}
+
+bintray {
+    user = "$BINTRAY_USER"
+    key = "$BINTRAY_API_KEY"
+    pkg.repo = 'maven'
+}
