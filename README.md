@@ -21,12 +21,12 @@ Used to integrate a yeoman build into your gradle build - inspired by [yeoman-ma
 
 ##Tasks
 Checkout 'gradle tasks' to see the teh added tasks. the names of the tasks should actually pretty much explain what is going on...
- * gradle npm - 'npm install'
- * gradle bower - 'bower install'
+ * gradle npmInstall - 'npm install'
+ * gradle bowerInstall - 'bower install'
  * gradle bowerList - 'bower list'
  * gradle gruntTest - 'grunt test'
  * gradle gruntServe - 'grunt server'
- * gradle grunt - 'grunt build'
+ * gradle gruntBuild - 'grunt build'
 
 ##Config
 Currently there are only 2 Configuration options for the plugin:

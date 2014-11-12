@@ -13,7 +13,7 @@ dependencies {
 }
 
 group = 'org.absolutegalaber'
-version = '0.0.1'
+version = '0.1.0'
 
 plugindev {
     pluginId 'org.absolutegalaber.yeoman'
@@ -29,8 +29,8 @@ plugindev {
     done() // do not omit this
 }
 
-//bintray {
+bintray {
 //    user = "$BINTRAY_USER"
 //    key = "$BINTRAY_API_KEY"
-//    pkg.repo = 'maven'
-//}
+    pkg.repo = 'maven'
+}
