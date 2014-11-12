@@ -4,7 +4,7 @@ Used to integrate a yeoman build into your gradle build - inspired by [yeoman-ma
 
 ##Usage
  To apply the plugin to your gradle build:
- '''groovy
+ ```groovy
   buildscript {
       repositories {
           maven {
@@ -15,7 +15,7 @@ Used to integrate a yeoman build into your gradle build - inspired by [yeoman-ma
           classpath 'org.absolutegalaber:yeoman-gradle-plugin:0.0.1'
       }
   }
- '''
+ ```
 
 
 [yeoman-maven-plugin]:https://github.com/trecloux/yeoman-maven-plugin
