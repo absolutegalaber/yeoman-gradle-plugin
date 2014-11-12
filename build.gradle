@@ -29,8 +29,8 @@ plugindev {
     done() // do not omit this
 }
 
-bintray {
-    user = "$BINTRAY_USER"
-    key = "$BINTRAY_API_KEY"
-    pkg.repo = 'maven'
-}
+//bintray {
+//    user = "$BINTRAY_USER"
+//    key = "$BINTRAY_API_KEY"
+//    pkg.repo = 'maven'
+//}

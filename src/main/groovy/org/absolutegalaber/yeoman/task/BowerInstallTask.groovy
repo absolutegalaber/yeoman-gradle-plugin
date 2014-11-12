@@ -7,7 +7,7 @@ import org.gradle.api.tasks.TaskAction
  */
 class BowerInstallTask extends BaseYeomanTask {
     BowerInstallTask() {
-        description = "Calls 'bower install"
+        description = "Calls 'bower install'"
     }
 
     @TaskAction
