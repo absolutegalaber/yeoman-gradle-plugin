@@ -40,7 +40,7 @@ yeoman {
 ```
 
 ##What remains to be done
-Toa setup a project simple
+Toa setup a project simply
  * apply the plugin to your war gradle project and then
  * mkdir yo
  * cd yo
@@ -50,7 +50,14 @@ The plugin does not hook any tasks into your gradle build. To do so I suggest so
 ```groovy
 build.dependsOn 'grunt'
 ```
-furthermore you should
+To include the Angular app within you war:
+
+```groovy
+war {
+    from 'yo/dist' // adds a file-set to the root of the archive
+}
+```
+
 
 ##Feedback
  * Open [Issues]
