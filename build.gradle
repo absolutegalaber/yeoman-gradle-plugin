@@ -1,0 +1,10 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
+
+group = 'org.absolutegalaber'
+version = '0.1-SNAPSHOT'
