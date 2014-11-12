@@ -13,7 +13,7 @@ dependencies {
 }
 
 group = 'org.absolutegalaber'
-version = '0.1-SNAPSHOT'
+version = '0.0.1'
 
 plugindev {
     pluginId 'org.absolutegalaber.yeoman'
