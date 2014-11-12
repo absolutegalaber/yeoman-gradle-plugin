@@ -47,7 +47,7 @@ build.dependsOn 'grunt'
 
 ##Feedback
  * Open [Issues]
- * Email me: josip (.) mihelko at gmail.com
+ * Email me: josip.mihelko (at) gmail.com
  * Have mercy with me, this is my first gradle plugin.
 
 [yeoman-maven-plugin]:https://github.com/trecloux/yeoman-maven-plugin
