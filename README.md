@@ -30,8 +30,8 @@ Checkout 'gradle tasks' to see the teh added tasks. the names of the tasks shoul
 
 ##Config
 Currently there are only 2 Configuration options for the plugin:
-yeomanDir - The root dir of the yeoman project - defaults to 'yo'
-useColos - Wheather grunt and bower soulh be called with colored output (defaults to false).
+ * yeomanDir - The root dir of the yeoman project - defaults to 'yo'
+ * useColors - Weather grunt and bower should be called with colored output (defaults to false).
 ```groovy
 yeoman {
     yeomanDir = 'myApp'
@@ -39,5 +39,17 @@ yeoman {
 }
 ```
 
+##What remains to be done
+The plugin does not hook any tasks into your gradle build. To do so I suggest something like this:
+```groovy
+build.dependsOn 'grunt'
+```
+
+##Feedback
+ * Open [Issues]
+ * Email me: josip (.) mihelko at gmail.com
+ * Have mercy with me, this is my first gradle plugin.
 
 [yeoman-maven-plugin]:https://github.com/trecloux/yeoman-maven-plugin
+[Issues]:https://github.com/absolutegalaber/yeoman-gradle-plugin/issues
+[Email me]:mailto:josip.mihelko@gmail.com
