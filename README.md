@@ -15,7 +15,17 @@ Used to integrate a yeoman build into your gradle build - inspired by [yeoman-ma
           classpath 'org.absolutegalaber:yeoman-gradle-plugin:0.0.1'
       }
   }
+
+  apply plugin: 'org.absolutegalaber.yeoman'
  ```
 
+##Tasks
+Checkout 'gradle tasks' to see the
+ * gradle npm - 'npm install'
+ * gradle bower - 'bower install'
+ * gradle bowerList - 'bower list'
+ * gradle gruntTest - 'grunt test'
+ * gradle gruntServe - 'grunt server'
+ * gradle grunt - 'grunt build'
 
 [yeoman-maven-plugin]:https://github.com/trecloux/yeoman-maven-plugin
