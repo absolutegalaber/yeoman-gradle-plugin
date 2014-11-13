@@ -3,9 +3,6 @@ plugins {
     id 'groovy'
     id 'maven'
 }
-//apply plugin: 'groovy'
-//apply plugin: 'maven'
-//apply plugin: 'nu.studer.plugindev'
 
 dependencies {
     compile gradleApi()
