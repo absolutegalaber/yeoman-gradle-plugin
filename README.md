@@ -26,7 +26,7 @@ Checkout 'gradle tasks' to see the teh added tasks. the names of the tasks shoul
  * gradle bowerList - 'bower list'
  * gradle gruntTest - 'grunt test'
  * gradle gruntServe - 'grunt server'
- * gradle gruntBuild - 'grunt build'
+ * gradle grunt - 'grunt build'
 
 ##Config
 Currently there are only 2 Configuration options for the plugin:
