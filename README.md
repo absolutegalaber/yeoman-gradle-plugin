@@ -2,6 +2,11 @@
 
 Used to integrate a yeoman build into your gradle build - inspired by [yeoman-maven-plugin].
 
+Check out the [yeoman-gradle-plugin-example]
+ 1. Instructions: Check out [yeoman-gradle-plugin-example].
+ 2. Execute gradle jettyEclipseRun
+ 3. Let me know if it breaks :)
+
 ##Usage
  To apply the plugin to your gradle build:
  ```groovy
