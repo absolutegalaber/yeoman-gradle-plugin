@@ -17,7 +17,7 @@ Check out the [yeoman-gradle-plugin-example]
           }
       }
       dependencies {
-          classpath 'org.absolutegalaber:yeoman-gradle-plugin:0.0.1'
+          classpath 'org.absolutegalaber:yeoman-gradle-plugin:0.3.0'
       }
   }
 
